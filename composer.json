@@ -1,10 +1,10 @@
 {
-    "name": "hexlet/code",
+    "name": "your-name/brain-games",
     "description": "testing project php",
     "autoload": {
-        "psr-4": {
-            "Hexlet\\Code\\": "src/"
-        }
+        "files": [
+            "src/Cli.php"
+        ]
     },
     "bin": [
         "bin/brain-games"
@@ -15,5 +15,7 @@
             "email": "kallycta2@yandex.ru"
         }
     ],
-    "require": {}
+    "require": {
+        "wp-cli/php-cli-tools": "^0.13.0"
+    }
 }
